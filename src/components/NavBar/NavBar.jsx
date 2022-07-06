@@ -1,10 +1,12 @@
 import React from 'react'
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import { FcShop } from "react-icons/fc";
+import { CartWidget } from "./CartWidget"
+import "./NavBar.scss"
 
 export const NavBar = () => {
     return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" id="nav-bar">
         <Container>
             <Navbar.Brand href="#home">
                 <FcShop />
@@ -22,6 +24,7 @@ export const NavBar = () => {
                 </NavDropdown>
             </Nav>
             </Navbar.Collapse>
+            <CartWidget />
         </Container>
     </Navbar>
     )
