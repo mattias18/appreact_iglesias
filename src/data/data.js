@@ -4,7 +4,7 @@ export const array = [
         title: "Placa RX 570",
         description: "Placa Gamer",
         price: 60000,
-        pictureUrl:"img/rx 570.jpg"
+        pictureUrl:"img/rx 570.png"
     },
     {
         id: 2,
@@ -18,6 +18,6 @@ export const array = [
         title: "Placa Nvidia 3090",
         description: "Placa Gamer Alta GAma",
         price: 300000,
-        pictureUrl:"img/3090.jpg"
+        pictureUrl:"img/3090.png"
     }
 ]
