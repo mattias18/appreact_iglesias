@@ -16,7 +16,10 @@ function App() {
       {/*
       <NavBar />
       <ItemListContainer greeting={"Mensaje enviado desde App.js"}/>
-      <ItemCount stock={5} initial={1} onAdd={onAdd} />
+      <ItemCount stock={5} initial={1} onAdd={onAdd} /
+
+sdd
+
   */}
   <ItemDetailContainer />
     </>
